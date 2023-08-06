@@ -694,7 +694,10 @@ footer{
     .banner-container .slide-content h3{
         font-size: 13px;
     }
-
+    .banner-container .slide-info li{
+        display: block;
+        margin-top: 2px;
+    }
     .new-products h2 {
         padding: 5%;
     }
