@@ -694,5 +694,13 @@ footer{
     .banner-container .slide-content h3{
         font-size: 13px;
     }
+
+    .new-products h2 {
+        padding: 5%;
+    }
+
+    .blog-events{
+        margin-top: 30px
+    } 
     
 }
