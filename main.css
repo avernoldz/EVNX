@@ -325,7 +325,7 @@ header{
 }
 
 .banner-container .slide-content h3{
-    font-size: 16x;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
     width: 40%;
@@ -685,4 +685,14 @@ footer{
         flex: 1;
     }
 
+}
+
+@media (max-width: 450px){
+    .banner-container .slide-content h1{
+        font-size: 2em;
+    }
+    .banner-container .slide-cpntent h3{
+        font-size: 13px;
+    }
+    
 }
