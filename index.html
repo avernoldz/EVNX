@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel = "icon" href = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type = "image/x-icon">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <header class="top-header" id="header">
+        <img src="assets/evnx-logo.png" alt="logo" class="header-logo" width="150" height="auto">
+        <nav class="top-header-nav">
+            <ul>
+                <li><a href="#" id="active">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li class="dropdown-button">
+                    <a href="#">CATEGORY <i class="fa fa-caret-down" style="color:var(--orange);"></i></a>
+                    <ul>
+                        <li><img src="assets/icon-helmet2.png" alt="icon-fullface" height="25px"><a href="#">FULL FACE HELMET</a></li>
+                        <li><img src="assets/icon-helmet1.png" alt="icon-fullface" height="25px"><a href="#">MODULAR HELMET</a></li>
+                        <li><img src="assets/icon-helmet3.png" alt="icon-fullface" height="25px"><a href="#">HALF FACE HELMET</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <nav class="sub-header">
+            <li><a href="#">USD  <i class="fa fa-caret-down" style="color:var(--orange);"></i></a></li>
+            <li class="search-container">
+                <input type="search" name="Search" class="search-btn" placeholder="SEARCH"/>
+                <button type="submit">Search</button>
+            </li>
+            <li>
+                <span><i class="fa fa-shopping-cart fa-lg"></i></span>
+                <div class="cart-container">
+                    <div class="cart-header">
+                        <p>Cart</p>
+                        <p>Total: <span style="color: var(--orange);">$ 1090.9</span> </p>
+                    </div>
+                    <div class="overflow">
+                        <div class="cart-details">
+                            <div class="cart-box1">
+                                <img src="assets/helmet1.png" alt="racing" height="80px" width="90px" />
+                            </div>
+                            <div class="cart-box2">
+                                <p>HJC CL- 17 CAPTAIN AMERICA </p>
+                                <p class="cart-price">$ 350.9</p>
+                                <p>Qty: 1</p>
+                            </div>
+                        </div>
+                        <div class="cart-details">
+                            <div class="cart-box1">
+                                <img src="assets/helmet2.png" alt="racing" height="80px" width="90px" />
+                            </div>
+                            <div class="cart-box2">
+                                <p>ZEUS Z-806 NEW SUPERTECH </p>
+                                <p class="cart-price">$ 350.9</p>
+                                <p>Qty: 1</p>
+                            </div>
+                        </div>
+                        <div class="cart-details">
+                            <div class="cart-box1">
+                                <img src="assets/helmet3.png" alt="racing" height="80px" width="90px" />
+                            </div>
+                            <div class="cart-box2">
+                                <p>ARAI TOUR CROSS 3</p>
+                                <p class="cart-price">$ 350.9</p>
+                                <p>Qty: 1</p>
+                            </div>
+                        </div>
+                        <div class="cart-details">
+                            <div class="cart-box1">
+                                <img src="assets/helmet3.png" alt="racing" height="80px" width="80px" />
+                            </div>
+                            <div class="cart-box2">
+                                <p>ARAI TOUR CROSS 3</p>
+                                <p class="cart-price">$ 350.9</p>
+                                <p>Qty: 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button>CHECKOUT</button>    
+                </div>
+            </li>
+            <li><i class="fa-solid fa-user"></i></li>
+         </nav>
+         <nav class="mobile-nav">
+            <li class="cart-shop-mob">
+                <i class="fa fa-shopping-cart fa-lg" style="font-size: 24px;"></i>
+            </li>
+            <li>
+                <i class="fa fa-bars" style="font-size: 20px;"></i>
+            </li>
+         </nav>
+    </header>
+
+    
+    <div class="menu-bar-mob">
+        <div class="container-mob">
+            <li><a href="#" id="active">HOME</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li class="dropdown-button2">
+                <a href="#">CATEGORY <i class="fa fa-caret-down" style="color:var(--orange);"></i></a>
+                <ul>
+                    <li><img src="assets/icon-helmet2.png" alt="icon-fullface" height="25px"><a href="#">FULL FACE HELMET</a></li>
+                    <li><img src="assets/icon-helmet1.png" alt="icon-fullface" height="25px"><a href="#">MODULAR HELMET</a></li>
+                    <li><img src="assets/icon-helmet3.png" alt="icon-fullface" height="25px"><a href="#">HALF FACE HELMET</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+        </div>
+    </div>
+
+    <div class="banner-container">
+        <div class="owl-carousel owl-theme">
+            <div class="slide slide-1">
+                <div class="slide-content">
+                    <h1>TEIXEIRA ADVENTURE1</h1>
+                    <h3>ADVANCED POLYCARBONATE COMPOSITE SHELL</h3>
+                    
+                    <div class="info-container">
+                        <div class="slide-info">
+                            <li>
+                                <p>COLOR <span>.</span></p>
+                            </li>
+                            <li>
+                                <p>PRICE<span>$ 125.9</span></p>
+                            </li>
+                            <li>
+                                <p>VIEW PRODUCT</p>
+                            </li>
+                        </div>
+                        <div class="share-icon">
+                            <a href="#" ><i class="fa">&#xf1e0;</i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide slide-2">
+                <div class="slide-content">
+                    <h1>ABP ADVENTURE</h1>
+                    <h3>ADVANCED POLYCARBONATE COMPOSITE SHELL</h3>
+                    
+                    <div class="info-container">
+                        <div class="slide-info">
+                            <li>
+                                <p>COLOR <span>.</span></p>
+                            </li>
+                            <li>
+                                <p>PRICE<span>$ 125.9</span></p>
+                            </li>
+                            <li>
+                                <p>VIEW PRODUCT</p>
+                            </li>
+                        </div>
+                        <div class="share-icon">
+                            <a href="#" ><i class="fa">&#xf1e0;</i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="slide-content">
+                    <h1>ZEUS ADVENTURE</h1>
+                    <h3>ADVANCED POLYCARBONATE COMPOSITE SHELL</h3>
+                    
+                    <div class="info-container">
+                        <div class="slide-info">
+                            <li>
+                                <p>COLOR <span>.</span></p>
+                            </li>
+                            <li>
+                                <p>PRICE<span>$ 125.9</span></p>
+                            </li>
+                            <li>
+                                <p>VIEW PRODUCT</p>
+                            </li>
+                        </div>
+                        <div class="share-icon">
+                            <a href="#" ><i class="fa">&#xf1e0;</i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="new-products">
+        <div>
+            <h2>NEW PRODUCTS</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="slide slide-1">
+                <div class="slide-content">
+                    <p> HJC CL-17 CAPTAIN AMERICA (SNELL)</p>
+                    <div class="slide-container">
+                        <div class="slide-box1">
+                            <p class="new-products-price">$ 350.5</p>
+                            <button>BUY NOW</button>
+                        </div>
+                        <div class="slide-box2">
+                            <img  src="assets/helmet1.png" alt="zeus-helmet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-2">
+                <div class="slide-content">
+                    <p> ZEUS Z-806 NEW SUPERTECH 1150 MATT</p>
+                    <div class="slide-container">
+                        <div class="slide-box1">
+                            <p class="new-products-price">$ 350.5</p>
+                            <button>BUY NOW</button>
+                        </div>
+                        <div class="slide-box2">
+                            <img  src="assets/helmet2.png" alt="zeus-helmet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-3">
+                <div class="slide-content">
+                    <p> ARAI TOUR CROSS 3 - DETOUR RED</p>
+                    <div class="slide-container">
+                        <div class="slide-box1">
+                            <p class="new-products-price">$ 350.5</p>
+                            <button>BUY NOW</button>
+                        </div>
+                        <div class="slide-box2">
+                            <img  src="assets/helmet3.png" alt="zeus-helmet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-1">
+                <div class="slide-content">
+                    <p> HJC CL-17 CAPTAIN AMERICA (SNELL)</p>
+                    <div class="slide-container">
+                        <div class="slide-box1">
+                            <p class="new-products-price">$ 350.5</p>
+                            <button>BUY NOW</button>
+                        </div>
+                        <div class="slide-box2">
+                            <img  src="assets/helmet1.png" alt="zeus-helmet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-2">
+                <div class="slide-content">
+                    <p> ZEUS Z-806 NEW SUPERTECH 1150 MATT</p>
+                    <div class="slide-container">
+                        <div class="slide-box1">
+                            <p class="new-products-price">$ 350.5</p>
+                            <button>BUY NOW</button>
+                        </div>
+                        <div class="slide-box2">
+                            <img  src="assets/helmet2.png" alt="zeus-helmet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-3">
+                <div class="slide-content">
+                    <p> ARAI TOUR CROSS 3 - DETOUR RED</p>
+                    <div class="slide-container">
+                        <div class="slide-box1">
+                            <p class="new-products-price">$ 350.5</p>
+                            <button>BUY NOW</button>
+                        </div>
+                        <div class="slide-box2">
+                            <img  src="assets/helmet3.png" alt="zeus-helmet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="blog-events">
+        <div class="container">
+            <div class="box1">
+                <div class="blog-header">
+                    <p>BLOG x EVENTS</p>
+                    <a href="">SEE ALL</a>
+                    <br />
+                </div>
+                <div class="blog-container">
+                    <div class="blog-box1">
+                        <img src="assets/blog1.jpg" alt="racing" height="100px" width="100px" />
+                    </div>
+                    <div class="blog-box2">
+                        <span>02/08/2017</span>
+                        <p>Dennis wins Van Doren Invitational WSBC Champ.</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                </div>
+                <div class="blog-container">
+                    <div class="blog-box1">
+                        <img src="assets/blog2.jpg" alt="racing" height="100px" width="100px" />
+                    </div>
+                    <div class="blog-box2">
+                        <span>02/08/2017</span>
+                        <p>Dennis wins Van Doren Invitational WSBC Champ.</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                </div>
+                <div class="blog-container">
+                    <div class="blog-box1">
+                        <img src="assets/blog3.jpg" alt="racing" height="100px" width="100px" />
+                    </div>
+                    <div class="blog-box2">
+                        <span>02/08/2017</span>
+                        <p>Dennis wins Van Doren Invitational WSBC Champ.</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="box2-container">
+                    <div class="box-img">
+                       
+                    </div>
+                    <div class="box2-header">
+                        <h1>AGV </h1>
+                        <h1>BEST </h1>
+                        <h1>SELLERS </h1>
+                        <p>_______</p>
+                        <br />
+                        <p>SEE OUR MOST POPULAR PRODUCTS</p>
+                        <br />
+                        <br />
+                        <br />
+                        <button>SHOP NOW</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="up-btn">
+        <a href="#header">UP</a>
+    </div>
+    <footer>
+        <p>.</p>
+    </footer>
+    <body>
+
+    <script>
+        $(document).ready(function(){
+
+            $(".dropdown-button ul").hide();
+
+            $(".cart-container").hide();
+
+            $(".menu-bar-mob").hide();
+
+            $(".fa-shopping-cart").click(function(){
+                $(".cart-container").slideToggle(300);
+            });
+
+            $(".cart-shop-mob").click(function(){
+                $(".cart-container").slideToggle(300);
+            });
+
+            $(".fa-bars").click(function(){
+                $(".menu-bar-mob").slideToggle(300);
+            });
+            
+
+
+            $(".dropdown-button").click(function() {
+                $(this).children("ul").stop(true, true).slideToggle(300),
+                $(this).toggleClass("dropdown-active"), $(this).mouseleave(function(){
+                    $(".dropdown-button ul").hide(800);
+                });
+            });
+
+            $(".banner-container .owl-carousel").owlCarousel({
+                items: 1,
+                nav: true,
+                autoplay: true,
+                loop: true,
+                autoplaySpeed: 300,
+            });
+
+            $(".new-products .owl-carousel").owlCarousel({
+                items: 3,
+                nav: true,
+                dots: false,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:false,
+                    },
+                    599:{
+                        items:2,
+                        nav:false,
+                    },
+                    1160:{
+                        items:3,
+                        nav:true,
+                        loop:false
+                    }
+                }
+            });
+
+
+        });
+    </script>
+    </body>
+</html>
