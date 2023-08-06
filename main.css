@@ -702,5 +702,13 @@ footer{
     .blog-events{
         margin-top: 30px;
     } 
+    .blog-events{
+        width: 100%;
+    }
+
+    .blog-events .box1{
+        width: 75%;
+        margin: 0 auto;
+    }
     
 }
